@@ -18,6 +18,10 @@ const Scene8SonarAPI = dynamic(() => import('@/components/scenes/Scene8SonarAPI'
 export default function Home() {
   return (
     <main>
+      {/* DEPLOY TEST — remove after confirming */}
+      <div style={{ position: 'fixed', bottom: 16, left: 16, zIndex: 9999, background: '#00D4FF', color: '#000', padding: '6px 12px', borderRadius: 8, fontFamily: 'monospace', fontSize: 12, fontWeight: 700 }}>
+        v2 ✓
+      </div>
       <Navigation />
       <ScrollProgress />
       <Scene1Hero />
